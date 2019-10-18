@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "big-integer": "^1.6.47",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "workerize-loader": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +29,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0"
   }
 }
